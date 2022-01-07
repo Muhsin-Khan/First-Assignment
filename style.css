@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+p,
+a,
+input,
+textarea {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.4em;
+}
+.wrapper {
+  width: 100%;
+}
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+.banner-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 550px;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+.banner-content {
+  width: 50%;
+}
+.banner-section .content-left {
+  padding-right: 50px;
+}
+.banner-section .content-right {
+  padding-left: 50px;
+}
+.content-left {
+  position: relative;
+}
+.headings {
+  padding-left: 30px;
+}
+.headings::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: 5px;
+  height: 86px;
+  background: #ff5959;
+  border-radius: 4px;
+}
+.headings h1 {
+  font-size: 45px;
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+  line-height: 1.2;
+}
+.banner-content img {
+  width: 400px;
+  margin-top: -35px;
+}
+.adding-margin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.3em;
+}
+.banner-content a {
+  display: inline-block;
+  background-color: #ff5959;
+  padding: 10px 25px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
+.banner-content p {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.4em;
+  font-size: 18px;
+}
+
+/*Mission part start from here*/
+.mission {
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+.mission h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #13103a;
+}
+.adding-colors {
+  color: #ffad5a;
+}
+.mission-boxes {
+  display: flex;
+  margin-top: 50px;
+}
+.mission-boxes h3 {
+  margin: 15px 0;
+  font-size: 23px;
+}
+.mission-boxes .single-box1 {
+  width: 32%;
+  background-color: #edf5f6;
+  margin-right: 2%;
+  padding: 25px;
+  border-radius: 10%;
+}
+
+.mission-boxes .single-box2 {
+  width: 32%;
+  background-color: #ffeeee;
+  padding: 25px;
+  border-radius: 10%;
+}
+.mission-boxes p {
+  color: #464646;
+}
+
+.mission-boxes .single-box3 {
+  width: 32%;
+  background-color: #fff4d6;
+  margin-left: 2%;
+  padding: 25px;
+  border-radius: 10%;
+}
+.img-width {
+  width: 130px;
+  margin-left: -10px;
+}
+
+/*Develop section start from here*/
+.develop {
+  display: flex;
+  padding: 50px 0;
+  justify-content: center;
+  align-items: center;
+}
+.develop h1 {
+  font-size: 40px;
+  color: #333333;
+}
+.develop p {
+  font-size: 18px;
+  line-height: 1.5em;
+  margin: 20px 0;
+}
+.develop .image-side {
+  width: 35%;
+  margin-right: 5%;
+  position: relative;
+}
+.images-width {
+  width: 100%;
+}
+.develop .content-side {
+  width: 60%;
+}
+.content-side a {
+  display: inline-block;
+  background-color: #ff5959;
+  padding: 10px 25px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 3px;
+}
+.using-padding {
+  padding-right: 50px;
+}
+.set-shape {
+  width: 180px;
+  position: absolute;
+  top: 25%;
+  left: -20%;
+  z-index: -1;
+}
+.maintain-shape {
+  position: relative;
+}
+.set-shape2 {
+  position: absolute;
+  width: 180px;
+  bottom: -20%;
+  right: -20%;
+  z-index: -1;
+}
+
+/*Footer section css start from here*/
+.footer-section {
+  padding: 50px 0;
+  background: #0b0d17;
+}
+.footer-section h1 {
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.adding-colors-pink {
+  color: #ff5959;
+}
+.footer-section p {
+  color: #7595ae;
+  text-align: center;
+}
